@@ -503,7 +503,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -578,6 +578,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1138176424}
+  - component: {fileID: 1138176425}
   m_Layer: 0
   m_Name: Spawn Manager
   m_TagString: Untagged
@@ -600,6 +601,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138176425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138176423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53abea78328492649b556ee557aa8792, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 4470064902053469779, guid: c47e978934a73014e9436e46e6a8e8c0, type: 3}
+  - {fileID: 4514752982462831180, guid: 12ee61e5b9517074eba881e6f89b99a2, type: 3}
+  - {fileID: 6377381444451215382, guid: c71b98239b2a7af4b9238f987e368491, type: 3}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
