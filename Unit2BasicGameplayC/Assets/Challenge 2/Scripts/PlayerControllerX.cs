@@ -6,6 +6,7 @@ public class PlayerControllerX : MonoBehaviour
 {
     public GameObject dogPrefab;
     public float fireDelay = 10.0f;
+    
 
     // Update is called once per frame
     void Update()
